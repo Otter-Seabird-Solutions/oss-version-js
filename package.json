@@ -1,0 +1,25 @@
+{
+    "name": "oss-version-js",
+    "version": "0.0.0",
+    "author": {
+        "name": "Otter & Seabird Solutions",
+        "url": "https://github.com/Otter-Seabird-Solutions/"
+    },
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "type": "module",
+    "files": [
+        "dist/"
+    ],
+    "dependencies": {
+        "typescript": "^5.4.5"
+    },
+    "devDependencies": {
+        "mocha": "^10.4.0"
+    },
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "test": "mocha"
+    }
+}
