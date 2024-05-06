@@ -11,15 +11,14 @@
     "files": [
         "dist/"
     ],
-    "dependencies": {
-        "typescript": "^5.4.5"
-    },
-    "devDependencies": {
-        "mocha": "^10.4.0"
-    },
     "scripts": {
         "build": "tsc",
         "watch": "tsc -w",
-        "test": "mocha"
+        "test:parser": "jest"
+    },
+    "devDependencies": {
+        "@jest/globals": "^29.7.0",
+        "jest": "^29.7.0",
+        "typescript": "^5.4.5"
     }
 }
